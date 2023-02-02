@@ -671,8 +671,9 @@
   font-family: Lato;
   line-height: 24px;
 }
-.home-button5 {
+.home-link2 {
   color: var(--dl-color-gray-black);
+  text-decoration: none;
   background-color: #3f3fc6;
 }
 .home-section1 {
@@ -707,8 +708,11 @@
   font-family: Lato;
   line-height: 24px;
 }
-.home-button6 {
+.home-button5 {
   background-color: #3f3fc6;
+}
+.home-link3 {
+  text-decoration: none;
 }
 .home-row3 {
   gap: 140px;
@@ -730,7 +734,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.home-text25 {
+.home-text24 {
   color: var(--dl-color-gray-black);
   font-size: 36px;
   max-width: 1000px;
@@ -743,13 +747,13 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.home-text26 {
+.home-text25 {
   color: var(--dl-color-gray-black);
   max-width: 1000px;
   font-family: Lato;
   line-height: 24px;
 }
-.home-button7 {
+.home-button6 {
   background-color: #3f3fc6;
 }
 .home-section3 {
@@ -765,7 +769,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.home-text30 {
+.home-text29 {
   color: var(--dl-color-gray-black);
   font-size: 36px;
   max-width: 1000px;
@@ -779,13 +783,13 @@
   flex-direction: column;
   justify-content: center;
 }
-.home-text31 {
+.home-text30 {
   color: var(--dl-color-gray-black);
   max-width: 1000px;
   font-family: Lato;
   line-height: 24px;
 }
-.home-button8 {
+.home-button7 {
   background-color: #3f3fc6;
 }
 .home-banner {
@@ -837,7 +841,7 @@
   font-family: Lato;
   line-height: 30px;
 }
-.home-link2 {
+.home-link4 {
   text-decoration: none;
 }
 .home-galleries {
@@ -951,6 +955,9 @@
     aspect-ratio: 1;
     justify-content: flex-start;
   }
+  .home-image3 {
+    align-self: center;
+  }
   .home-mission {
     gap: var(--dl-space-space-unit);
     padding-top: var(--dl-space-space-threeunits);
@@ -1062,6 +1069,9 @@
     font-size: 16px;
     line-height: 24px;
   }
+  .home-image3 {
+    align-self: center;
+  }
   .home-mission {
     align-items: center;
   }
@@ -1096,6 +1106,9 @@
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
     padding-bottom: var(--dl-space-space-twounits);
+  }
+  .home-image3 {
+    flex: 1;
   }
   .home-row {
     flex-direction: column;
@@ -1141,13 +1154,13 @@
   .home-section2 {
     gap: var(--dl-space-space-oneandhalfunits);
   }
-  .home-text25 {
+  .home-text24 {
     font-size: 24px;
   }
   .home-section3 {
     gap: var(--dl-space-space-oneandhalfunits);
   }
-  .home-text30 {
+  .home-text29 {
     font-size: 24px;
   }
   .home-container2 {
