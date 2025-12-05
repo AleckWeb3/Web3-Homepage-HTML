@@ -3,45 +3,63 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Web3 Homepage</title>
-    <meta property="og:title" content="Web3 Homepage">
+    <title>Web3 Innovations - Coming Soon</title>
+    <meta property="og:title" content="Web3 Innovations - Coming Soon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="twitter:card" content="summary_large_image">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&amp;display=swap">
-    <link rel="stylesheet" href="./style.css">
-    <link href="./home.css" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Lato', Arial, sans-serif;
+            background-color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            text-align: center;
+            max-width: 600px;
+        }
+
+        .logo {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            margin-bottom: 40px;
+        }
+
+        .message {
+            font-size: 32px;
+            color: #021536;
+            font-weight: 400;
+            letter-spacing: 1px;
+        }
+
+        @media (max-width: 768px) {
+            .logo {
+                max-width: 300px;
+                margin-bottom: 30px;
+            }
+
+            .message {
+                font-size: 24px;
+            }
+        }
+    </style>
 </head>
 
 <body>
-    <div class="home-container">
-        <img alt="Web3 Innovations" src="public/playground_assets/web%20three%20innovations%20logo-d1-200h.png" class="home-image">
-        <header class="home-navbar-interactive">
-            <div class="home-branding">
-                <svg viewBox="0 0 1024 1024" class="home-icon">
-                    <path d="M128 128h768v768h-768z"></path>
-                </svg>
-                <span class="home-text">Web3 Consulting, Integration, Investment</span>
-            </div>
-            <div class="home-desktop-menu">
-                <nav class="home-links">
-                    <a href="#CaseStudies" class="home-button button home-link">Case Studies &amp; Research</a>
-                    <a href="#CallUs" class="home-button1 button home-link1">&nbsp;Book a Meeting</a>
-                </nav>
-            </div>
-            <div class="home-burger-menu">
-                <button class="home-button2 button">
-                    <span class="home-span"></span>
-                    <span class="home-span1"></span>
-                    <span class="home-span2"></span>
-                </button>
-            </div>
-        </header>
-        <div class="home-hero">
-            <h1 class="home-title">Web3 Innovations</h1>
-            <p class="home-description">Empowering the Future of Decentralized Technologies</p>
-            <button class="home-button3 button">Explore Our Services</button>
-        </div>
+    <div class="container">
+        <img src="public/playground_assets/web%20three%20innovations%20logo-d1-200h.png" alt="Web3 Innovations" class="logo">
+        <h1 class="message">Refresh Coming Soon</h1>
     </div>
 </body>
 
